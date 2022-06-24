@@ -1,7 +1,7 @@
 .App {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #1a202c;
-  overflow: scroll;
+  /* overflow: scroll; */
   text-align: center;
 }
 
@@ -94,6 +94,7 @@
   justify-items: center;
   margin: 0;
   padding: 0;
+  align-items: baseline;
 }
 
 .gif-grid .gif-item {
@@ -102,6 +103,7 @@
   position: relative;
   justify-self: center;
   align-self: center;
+  
 }
 
 .gif-item img {
